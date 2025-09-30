@@ -1,0 +1,76 @@
+/* src/components/Header.module.css */
+
+.mainHeader {
+  background: #12121c99;
+  backdrop-filter: blur(10px);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--heading-text);
+  text-decoration: none;
+}
+
+.mainNav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.mainNav li {
+  margin-left: 25px;
+}
+
+.navLink {
+  color: var(--light-text);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: var(--vibrant-magenta);
+}
+
+.active {
+  color: var(--vibrant-magenta);
+}
+
+/* Novo container para os botões da direita */
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; /* Espaço entre o botão de tema e o menu hamburguer */
+}
+
+.menuToggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menuToggle span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin: 4px 0;
+  border-radius: 2px;
+}
+
+/* A chave '}' extra foi removida daqui */

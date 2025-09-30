@@ -1,0 +1,8 @@
+/* src/components/Footer.module.css */
+
+.mainFooter {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem; /* Garante o espaço acima do rodapé */
+  border-top: 1px solid var(--border-color); /* Cria a linha de separação */
+}

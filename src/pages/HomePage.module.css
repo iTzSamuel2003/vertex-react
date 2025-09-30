@@ -1,0 +1,83 @@
+/* ===== Seção Hero (Banner Principal) ===== */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(18, 18, 28, 0.8), rgba(18, 18, 28, 0.8)), url(https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center/cover;
+}
+
+.heroContent {
+    max-width: 800px;
+}
+
+.heroContent h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--heading-text); /* <-- ESSA LINHA É A CHAVE */
+}
+  
+.heroContent p {
+  font-size: 1.2rem;
+  margin: 1rem 0 2rem 0;
+  color: var(--light-text); /* <-- E ESSA TAMBÉM */
+}
+
+
+/* ===== Títulos de Seção Genéricos da Página ===== */
+.sectionTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--heading-text);
+}
+
+.sectionSubtitle {
+    text-align: center;
+    max-width: 700px;
+    margin: -2rem auto 3rem auto;
+    color: var(--light-text);
+}
+
+
+/* ===== Seção de Diferenciais ===== */
+.differentiatorsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2.5rem;
+    margin-top: 4rem;
+}
+
+.differentiatorItem {
+    text-align: center;
+}
+
+.differentiatorItem .icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--electric-blue);
+}
+
+.differentiatorItem h3 {
+    color: var(--heading-text);
+    margin-bottom: 0.5rem;
+}
+
+
+/* ===== Seção de Chamada para Ação (CTA) ===== */
+.ctaSection {
+    background: linear-gradient(45deg, var(--electric-blue), var(--vibrant-magenta));
+    color: var(--heading-text);
+    text-align: center;
+    padding: 4rem 2rem;
+    border-radius: 10px;
+    margin-top: 5rem;
+}
+
+.ctaSection h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: var(--heading-text); /* Garante que a cor do título obedeça o tema */
+}
