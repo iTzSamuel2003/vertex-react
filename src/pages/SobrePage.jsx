@@ -35,7 +35,7 @@ function SobrePage() {
     // --- CARD ATUALIZADO COM SUAS INFORMAÇÕES ---
     {
       // Adicione uma barra no início do caminho
-      imgSrc: "public/fotos/eu.jpg",
+      imgSrc: "https://i.ibb.co/NQfvB7P/eu.jpg",
       altText: "Foto de Samuel Borges", // Corrigido: Texto alt correspondente à imagem
       name: "Samuel de Albuquerque Borges", // Atualizado: Seu nome
       role: "Desenvolvedor de Software", // Atualizado: Um cargo de exemplo
